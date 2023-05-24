@@ -18,19 +18,19 @@ As a mnemonic, the acronym BEFAST is used to make it simpler to recognize and re
 
 <img style="margin:5px;" src="https://img.shields.io/badge/numpy-%23013243.svg?style=for-the-badge&logo=numpy&logoColor=white" alt="Numpy">
 
-<img style="margin:5px;" src="https://img.shields.io/badge/SciPy-%230C55A5.svg?style=for-the-badge&logo=scipy&logoColor=%white" alt="SciPy">
-
 <img style="margin:5px;" src="https://img.shields.io/badge/opencv-%23white.svg?style=for-the-badge&logo=opencv&logoColor=white" alt="OpenCV">
 
 <img style="margin:5px;" src="https://img.shields.io/badge/pandas-%23150458.svg?style=for-the-badge&logo=pandas&logoColor=white)" alt="Pandas">
 
 <img style="margin:5px;" src="https://img.shields.io/badge/Matplotlib-%23fff1ff.svg?style=for-the-badge&logo=Matplotlib&logoColor=black" alt="Matplotlib">
 
-<img style="margin:5px;" src="https://img.shields.io/badge/Plotly-%233F4F75.svg?style=for-the-badge&logo=plotly&logoColor=white" alt="Plotly">
+<img style="margin:5px;" src="https://img.shields.io/badge/Twilio-F22F46?style=for-the-badge&logo=Twilio&logoColor=white" alt="Twilio">
 
 <img style="margin:5px;" src="https://img.shields.io/badge/Anaconda-%2344A833.svg?style=for-the-badge&logo=anaconda&logoColor=white" alt="Anaconda">
 
-<img style="margin:5px;" src="https://img.shields.io/badge/Visual%20Studio%20Code-0078d7.svg?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code">
+<img style="margin:5px;" src="	https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" alt="PyCharm">
+
+<img style="margin:5px;" src="https://img.shields.io/badge/Jupyter-orange?style=for-the-badge&logo=Jupyter" alt="Jupyter Notebook">
 
 <img style="margin:5px;" src="https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white" alt="Nvidia">
 
@@ -41,6 +41,8 @@ As a mnemonic, the acronym BEFAST is used to make it simpler to recognize and re
 <img style="margin:5px;" src="https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB" alt="React">
 
 <img style="margin:5px;" src="https://img.shields.io/badge/React_Router-CA4245?style=for-the-badge&logo=react-router&logoColor=white" alt="React Route">
+
+<img style="margin:5px;" src="https://img.shields.io/badge/WebStorm-000000?style=for-the-badge&logo=WebStorm&logoColor=white" alt="WebStorm">
 
 </div>
 
