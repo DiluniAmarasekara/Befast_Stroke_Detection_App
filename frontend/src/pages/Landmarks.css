@@ -28,7 +28,7 @@
 
 .right_lcontainer{
     flex: 1;
-    background-image: url("../assests/Hero_img.png");
+    background-image: url("../assests/brain_animate.gif");
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
@@ -40,8 +40,8 @@
 .overlay_container{
     position: absolute;
     top: 55%;
-    left: 4vw;
-    width: 80%;
+    left: 2vw;
+    width: 60%;
     max-width: 60vw;
     background-color: #fff;
     border-radius: 10px;

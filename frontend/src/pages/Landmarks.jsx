@@ -37,12 +37,12 @@ function Landmarks() {
       <Navbar/>
       <div className='landmark_container'>
         <div className='left_lcontainer'>
-          <h2 className='landmark_h'>Fast and effective stroke detection mechanism</h2>
-          <p className="landmark_p">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut tempus est id mauris lacinia,<br/>a malesuada neque lacinia. Sed luctus facilisis hendrerit. </p>
+          <h2 className='landmark_h'>B E F A S T<br/>Early Stroke Detection</h2>
+          <p className="landmark_p">B - Balance: Watch for sudden loss of balance  E - Eyes: Check for vision loss<br/>F - Face: Look for an uneven smile  A - Arm: Check if one arm is weak<br/>S - Speech: Listen for slurred speech  T - Time: Call emergency contacts right away! </p>
         </div>
         <div className='right_lcontainer'></div>
         <div className='overlay_container'>
-          <h2 className='overlay_h'>Key Landmark Detection</h2>
+          <h2 className='overlay_h'>Start Monitoring Balance, Eyes, Face and Arms</h2>
           <div className='overlay_btn_container'>
             <button className='overlay_btn obtn1' onClick={handleStartClick}>
               <AiOutlinePlayCircle className='overlay_icon play_i'/>
@@ -55,7 +55,7 @@ function Landmarks() {
             <Link to="/lipsign" className="linkStyle">
               <button className='overlay_btn obtn3'>
                 <MdOutlineNextPlan className='overlay_icon next_i'/>
-                <span className='overlay_label next_label'>Next</span>
+                <span className='overlay_label next_label'>Next Speech Check</span>
               </button>
             </Link>
           </div>
