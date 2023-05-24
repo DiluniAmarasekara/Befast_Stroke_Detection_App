@@ -30,7 +30,7 @@ As a mnemonic, the acronym BEFAST is used to make it simpler to recognize and re
 
 <img style="margin:5px;" src="https://img.shields.io/badge/PyCharm-000000.svg?&style=for-the-badge&logo=PyCharm&logoColor=white" alt="PyCharm">
 
-<img style="margin:5px;" src="https://img.shields.io/badge/Jupyter-orange?style=for-the-badge&logo=Jupyter" alt="Jupyter Notebook">
+<img style="margin:5px;" src="https://img.shields.io/badge/Jupyter-orange?style=for-the-badge&logo=Jupyter&logoColor=white" alt="Jupyter Notebook">
 
 <img style="margin:5px;" src="https://img.shields.io/badge/nVIDIA-%2376B900.svg?style=for-the-badge&logo=nVIDIA&logoColor=white" alt="Nvidia">
 
