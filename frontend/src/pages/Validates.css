@@ -1,0 +1,137 @@
+.landmark_container{
+    display: flex;
+    height: 90vh;
+    position: relative;
+}
+
+.left_lcontainer{
+    flex: 1;
+    background-color: #fff;
+    height: 100%;
+}
+
+.landmark_h{
+    font-size: 55px;
+    font-weight: 700;
+    margin-left: 4vw;
+    margin-top: 8vh;
+    color: #111;
+}
+
+.landmark_p{
+    font-size: 15px;
+    font-weight: 400;
+    color: #727272;
+    margin-left: 4vw;
+    margin-top: -2vh;
+}
+
+.right_lcontainer{
+    flex: 1;
+    background-image: url("../assests/brain_animate.gif");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100%;
+    overflow: hidden;
+    border-bottom-left-radius: 3vh;
+}
+
+.box_container{
+    position: absolute;
+    top: 30%;
+    left: 15vw;
+    width: 60%;
+    max-width: 60vw;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 80px;
+}
+
+.overlay_h{
+    font-size: 20px;
+    font-weight: 600;
+    color: #111;
+}
+
+.overlay_btn_container{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.overlay_btn{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    border: 2px solid #111;
+    flex-grow: 1;
+    width: 300px;
+    margin-right: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    justify-content: center;
+    align-items: center;
+}
+
+.obtn1, .obtn2{
+    background-color: #fff;
+    border: 3px solid #1063F3;
+}
+
+.obtn3{
+    background-color: #1063F3;
+    border: 3px solid #1063F3;
+}
+
+.overlay_label{
+    color: #1063F3;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.next_label{
+    color: #fff;
+}
+
+.overlay_icon{
+    font-size: 30px;
+    margin-right: 10px;
+    color: #1063F3;
+}
+
+.next_i{
+    color: #fff;
+}
+
+.linkStyle{
+    text-decoration: none;
+}
+
+.obtn1:hover,
+.obtn2:hover {
+  background-color: #00039a;
+  color: #fff;
+  border: 3px solid #00039a;
+}
+
+.obtn3:hover {
+  background-color: #00039a;
+  color: #00039a;
+  border: 3px solid #00039a;
+}
+
+.obtn1:hover .overlay_label,
+.obtn2:hover .overlay_label,
+.obtn1:hover .overlay_icon,
+.obtn2:hover .overlay_icon {
+  color: #fff;
+}
+
+
+.obtn3:hover .overlay_label,
+.obtn3:hover .overlay_icon {
+  color: #fff;
+}

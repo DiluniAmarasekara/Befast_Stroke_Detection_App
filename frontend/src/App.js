@@ -6,6 +6,7 @@ import{
   Routes,
   Route,
 } from "react-router-dom";
+import Validates from "./pages/Validates";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Landmarks/>} />
           <Route path="/lipsign" element={<Lipsigns/>} />
+          <Route path="/validates" element={<Validates/>} />
         </Routes>
       </Router>
     </div>
