@@ -73,6 +73,7 @@ function Lipsigns() {
                 <RecordWebcam
                     options={OPTIONS}
                     render={(renderProps) => (<div>
+                        <h4 className='lip_h'>{renderProps.status !== "RECORDING" ? null : "Tell: Today is beautiful!"}</h4>
                         <p>Camera Status: {renderProps.status}</p>
                         <div>
                             <button
@@ -123,7 +124,7 @@ function Lipsigns() {
 
                             <button className='validate_btn' disabled={renderProps.status !== "PREVIEW"}>
                                 <Link to="/validates" className="linkStyle">Next Validate</Link>
-                          </button>
+                            </button>
 
                         </div>
                     </div>)
