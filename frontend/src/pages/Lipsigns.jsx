@@ -59,7 +59,7 @@ function Lipsigns() {
     };
 
     return (<>
-        <Navbar/>
+        <Link to="/" className="linkStyle"><Navbar/></Link>
         <div className='lip_container'>
             <div className='l_row text_row'>
                 <div className='l_left_h'>

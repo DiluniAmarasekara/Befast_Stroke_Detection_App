@@ -45,7 +45,7 @@ function Validates() {
 
     return (
         <div>
-            <Navbar/>
+            <Link to="/" className="linkStyle"><Navbar/></Link>
             <div className='landmark_container'>
                 <div className='right_lcontainer'></div>
                 <div className='box_container'>
@@ -57,12 +57,6 @@ function Validates() {
                                     <AiOutlinePhone className='overlay_icon stop_i'/>
                                     <span className='overlay_label'>Call emergency contact</span>
                                 </button>
-                                <Link to="/lipsign" className="linkStyle">
-                                    <button className='overlay_btn obtn3'>
-                                        <MdOutlineNextPlan className='overlay_icon next_i'/>
-                                        <span className='overlay_label next_label'>Next Speech Check</span>
-                                    </button>
-                                </Link>
                             </>
                         ) : (
                             <p>No symptoms found.</p>
