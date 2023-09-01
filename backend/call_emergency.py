@@ -9,8 +9,7 @@ def call_emergency():
 
     call = client.calls.create(
         twiml='<Response><Say>Hi, My name is Diluni and I am at 123 Maple Street. I am concerned about the possibility of a stroke. Please send an ambulance.</Say></Response>',
-        to='+94710864158',
+        to='+436574364534',
         from_='+14706345365'
     )
-
     print(call.sid)

@@ -9,6 +9,7 @@ cap = cv2.VideoCapture(0)
 
 
 def perform_body_language_detection():
+    is_issue = False
     with open('body_language.pkl', 'rb') as f:
         model = pickle.load(f)
 
@@ -17,7 +18,7 @@ def perform_body_language_detection():
 
     # Initiate holistic model
     with mp_holistic.Holistic(min_detection_confidence=0.5, min_tracking_confidence=0.5) as holistic:
-        expected_body_language_order = ['Happy', 'Sad', 'Victory', 'Wakanda Forever']
+        expected_body_language_order = ['Happy', 'Standing march', 'Arm raise', 'Victory']
         detected_body_languages = []
         current_stage = 0
         start_time = None

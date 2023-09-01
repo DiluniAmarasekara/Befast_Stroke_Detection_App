@@ -57,7 +57,7 @@ def get_video_prediction():
 
 
 @app.route('/call_emergency', methods=['GET'])
-def call_emergency():
+def call_emergency_contacts():
     call_emergency()
     return jsonify({'message': 'Calling emergency is success!'})
 
