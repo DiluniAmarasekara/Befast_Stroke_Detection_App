@@ -47,9 +47,31 @@ As a mnemonic, the acronym BEFAST is used to make it simpler to recognize and re
 </div>
 
 ## Getting Started
+- Use git clone and download the repository: `git clone https://github.com/DiluniAmarasekara/Befast_Stroke_Detection_App.git`
 
-1. Use git clone and download the repository: `git clone https://github.com/DiluniAmarasekara/Befast_Stroke_Detection_App.git`
-2. Go to the backend and refer the ReadMe file and up the backend
-3. Go to the frontend and refer the ReadMe file and up the frontend
+### Backend
+- Go to the backend root and run below
+```sh
+pip install Flask
+```
+```sh
+python app.py
+```
+
+### Frontend
+- Go to the frontend root and run below
+```sh
+npm install
+```
+```sh
+npm start
+```
+
+### Prototype
+- Go to the prototype root and run below
+```sh
+streamlit run streamlitapp.py
+```
+
 
 Here you go!!! Happy coding!
